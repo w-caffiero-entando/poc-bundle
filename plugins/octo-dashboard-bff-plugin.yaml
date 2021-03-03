@@ -1,0 +1,6 @@
+image: alemoretto/dashboard-bff:0.0.1-SNAPSHOT
+dbms: none
+healthCheckPath: '/management/health'
+roles:
+  - 'dashboard-bff-admin'
+  - 'ui-admin'

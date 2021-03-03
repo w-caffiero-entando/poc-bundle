@@ -1,0 +1,18 @@
+code: octo-poc-bundle
+description: Octo Poc Bundle
+components:
+  plugins:
+    - plugins/octo-dashboard-bff-plugin.yaml
+  fragments:
+    - fragments/import-map-ux-fragment.yaml
+    - fragments/octo-dashboard-css-ux-fragment.yaml
+    - fragments/octo-dashboard-js-ux-fragment.yaml
+  pageModels:
+    - page-models/dashboard-page-template.yaml
+  widgets:
+    - ui/widgets/octo/card-widget/card-widget-descriptor.yaml
+    - ui/widgets/octo/card-mock-widget/card-mock-widget-descriptor.yaml
+    - pure-widgets/octo-brand-copyright-descriptor.yaml
+    - pure-widgets/octo-brand-graphrow-descriptor.yaml
+    - pure-widgets/octo-brand-sidebar-descriptor.yaml
+    - pure-widgets/octo-brand-topbar-descriptor.yaml
